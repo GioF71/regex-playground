@@ -1,4 +1,4 @@
-const assertions = require("./assertions");
+const assertions = require("../assertions/assertions");
 
 // "Hello, World!" contains "Hello"
 assertions.assertRegexTest("Hello, World!", /Hello/);
